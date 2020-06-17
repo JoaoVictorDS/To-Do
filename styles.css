@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: whitesmoke;
+}
+
+#container {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid rgba(51,0,255,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.todoText {
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    color: whitesmoke;
+    padding: 5px 15px;
+}
+
+.todoText:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+}
+
+#btnAddTodo, .btnSave, .btnDelete {
+    border: 1px solid rgba(51,0,255,0.5);
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+#btnAddTodo:focus, .btnSave:focus, .btnDelete:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+}  
+
+input[type=checkbox]:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+}
+
+#inputTextTodo {
+    border: 1px solid darkblue;
+    background-color: transparent;
+    padding: 5px 15px;
+    color: whitesmoke;
+}
+
+#inputTextTodo:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+    border: none;
+}
+
+#containerFilter {
+    display: inline-grid;
+    justify-content: center;
+}
+
+.btnFilter {
+    border: 1px solid rgba(51,0,255,0.5);
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.btnFilter:focus, .btnFilter.selected{
+    outline: none;
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+}
+
+#btnFilter {
+    border: 1px solid rgba(51,0,255,0.5);
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+#btnFilter:focus {
+    outline: none;
+}
+
+#btnFilter.selected {
+    box-shadow: 0px 0px 4px 4px rgba(51,0,255,0.5);
+    background-color: rgba(51,0,255,0.5); 
+}
+
+#divBtnFilter {
+    display: none;
+}
